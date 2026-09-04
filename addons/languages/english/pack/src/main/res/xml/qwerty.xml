@@ -1,9 +1,7 @@
-
 <Keyboard xmlns:android="http://android.com"
     android:keyWidth="16.66%p" 
     android:keyHeight="25%p">
 
-    <!-- Row 1: Low frequency left, high frequency right -->
     <Row>
         <Key android:codes="122" android:keyLabel="z"/>
         <Key android:codes="120" android:keyLabel="x"/>
@@ -13,7 +11,6 @@
         <Key android:codes="101" android:keyLabel="e"/>
     </Row>
 
-    <!-- Row 2 -->
     <Row>
         <Key android:codes="113" android:keyLabel="q"/>
         <Key android:codes="119" android:keyLabel="w"/>
@@ -23,7 +20,6 @@
         <Key android:codes="111" android:keyLabel="o"/>
     </Row>
 
-    <!-- Row 3 -->
     <Row>
         <Key android:codes="112" android:keyLabel="p"/>
         <Key android:codes="98"  android:keyLabel="b"/>
@@ -33,12 +29,11 @@
         <Key android:codes="110" android:keyLabel="n"/>
     </Row>
 
-    <!-- Row 4: 1-Handed Bottom Utility Row -->
     <Row>
         <Key android:codes="102" android:keyLabel="f"/>
         <Key android:codes="121" android:keyLabel="y"/>
         <Key android:codes="115" android:keyLabel="s"/>
         <Key android:codes="104" android:keyLabel="h"/>
-        <Key android:codes="32"  android:keyLabel="SPACE" android:keyWidth="33.33%p" android:isRepeatable="true"/>
+        <Key android:codes="-1"  android:isKeyKeyWidth="33.33%p" android:isRepeatable="true"/>
     </Row>
 </Keyboard>
